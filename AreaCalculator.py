@@ -20,11 +20,11 @@ hint = "Don't forget to include the correct unit"
 option = raw_input("Enter C for Circle or T for Triangle").upper()
 
 if option == 'C':
-    radius = float(raw_input("Enter radius: "))
-    area = pi * radius**2  
-    print "The pie is baking..."
-    sleep(1) 
-    print ("Area: %.2f. \n%s" % (area, hint))
+  radius = float(raw_input("Enter radius: "))
+  area = pi * radius**2  
+  print "The pie is baking..."
+  sleep(1) 
+  print ("Area: %.2f. \n%s" % (area, hint))
 elif option == "T":
   base = float(raw_input("Enter base: "))
   height = float(raw_input("Enter height: "))
